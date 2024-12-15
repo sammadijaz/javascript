@@ -27,5 +27,5 @@ console.table([constantAssign, userName, userAge, userCity])
 
 /* After commenting out the line trying to change the comment, the program works fine and we can see all other variables are changed to the new values.
 
-We dont use the ' var ' variable because the history of JavaScript not being able to run scope ( ' { } ' these curly brackets are called scopes. Examples:  The ones being used in ' IF ' and ' FOR ' loops etc ) */
+We dont use the ' var ' variable because the issue of block scope and functional scope ( scope =  ' { } ' these curly brackets are called scopes. Examples:  The ones being used in ' IF ' and ' FOR ' loops etc ) */
 
