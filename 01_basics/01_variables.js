@@ -1,3 +1,5 @@
+// Video Source: https://youtu.be/yY0bKZNYmJs?si=bfHW09tAezlQSMjM
+
 // Defining some variables/constants and displaying them
 
 const constantAssign = 123 // This is a constant variable and it cant be changed
