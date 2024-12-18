@@ -86,3 +86,13 @@ let strToBoolean = Boolean(aString)
 console.log(strToBoolean);
 
 
+// *******************Operations*********************
+
+
+let value = 10
+let negativeOfValue = -value // Output: -10
+
+console.log(negativeOfValue);
+
+
+
