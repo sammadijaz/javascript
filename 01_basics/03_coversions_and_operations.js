@@ -95,4 +95,69 @@ let negativeOfValue = -value // Output: -10
 console.log(negativeOfValue);
 
 
+//Basic arithmetic operations
+
+// console.log(1+2);
+// console.log(3-2);
+// console.log(2*2);
+// console.log(4/2);
+// console.log(2**3);
+// console.log(2%3);
+
+
+// String operations
+
+let str1 = "Hello"
+let str2 = " World"
+
+let str3 = str1 + str2
+
+console.log(str3); // Output: Hello World
+
+
+
+// Operator Precedence:
+
+// Some memes about string operations
+
+console.log("1" + "2"); // Output: 12
+
+console.log(1 + "2"); // Output: 12
+
+console.log("1" + 2 + 3); // Output: 123
+
+console.log(1 + 2 + "3"); // Output: 33
+
+console.log(1 + "2" + 3); // Output: 123
+
+
+// In conclusion, the operations are performed from left to right. 
+
+//If we have a string first, it will be output as a string. 
+
+//If we have a number first, it will perform function and will output as a number.
+
+console.log(true); // Output: true
+console.log(+true); // Output: 1
+// +true is a unary operator that converts true to a number. (true= 1, hence it outputs 1) 
+
+console.log(+""); // Output: 0
+// +"" is a unary operator that converts an empty string to a number. (empty string = 0 hence it outputs 0)
+
+
+
+
+// Boolean operations
+
+// console.log(true); // Output: true
+// console.log(true + true); // Output: 2
+
+// console.log(false); // Output: false
+// console.log(false + false); // Output: 0
+
+// console.log(true + false); // Output: 1
+// console.log(false + true); // Output: 1
+
+// console.log(true + true + false + true); // Output: 3
+
 
