@@ -175,10 +175,10 @@ console.log(+""); // Output: 0
 
 let a = 5, b = 5;
 
-b = ++a; // It means add 1 to a first then assign the value to b. So a = 6, b = 5.
+b = ++a; // It means add 1 to a first then assign the value to b. So a = 6, b = 6.
 
-console.log(a)
-console.log(b)
+console.log(a) //Output: 6
+console.log(b) //Output: 6
 
 // Postfix in Increment(++):
 
@@ -186,7 +186,7 @@ let c = 5, d = 5;
 
 d = c++; // It means assign the value of c to d first then add 1 to it. So c = 6, d = 5.
 
-console.log(d);
-console.log(c);
+console.log(d); // Ouput: 6
+console.log(c); // Output: 5
 
 
