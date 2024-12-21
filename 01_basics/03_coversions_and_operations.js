@@ -161,3 +161,32 @@ console.log(+""); // Output: 0
 // console.log(true + true + false + true); // Output: 3
 
 
+// Postfix and Prefix in increment and decrement:
+
+// used this video to learn: https://www.youtube.com/watch?v=aYqsb3h6JGQ
+
+
+// ++ means add 1, -- means subtract 1 . It doesnt matter postfix or prefix , the result is the same.
+
+// Just when the addition and subtraction would take place is different.
+
+
+// Prefix in Increment(++):
+
+let a = 5, b = 5;
+
+b = ++a; // It means add 1 to a first then assign the value to b. So a = 6, b = 5.
+
+console.log(a)
+console.log(b)
+
+// Postfix in Increment(++):
+
+let c = 5, d = 5;
+
+d = c++; // It means assign the value of c to d first then add 1 to it. So c = 6, d = 5.
+
+console.log(d);
+console.log(c);
+
+
