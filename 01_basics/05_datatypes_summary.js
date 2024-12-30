@@ -132,6 +132,28 @@ console.log(typeof tempOutside); // Output: object
 
 // We get different values when we use typeof operator on different data types in JS.
 
+/* 
+
+They are: 
+
+Return type of variables in JavaScript
+
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+
+*/
+
 // All of them are given here:
 
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
